@@ -128,15 +128,18 @@ a, li {
     padding: 0 20px;
 }
 
-body {
-    background-color: #d1d1d1;
+ body {
+    background-image: url(https://unsplash.com/photos/white-textile-on-brown-wooden-table-_kUxT8WkoeY);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     font-family: "Poppins", sans-serif;
     padding: 8%;
 }
 
 header {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,9 +149,12 @@ header {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: 600;
     font-size: 60px;
     margin: -150px 0 40px;
+}
+span {
+    color: #fd5000;
 }
 
 .countdown {
@@ -169,6 +175,23 @@ h1 {
     font-size:36px;
     line-height: 1;
     margin: 0 0 5px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+footer span {
+    color: inherit;
 }
 
 @media (max-width: 780px) {

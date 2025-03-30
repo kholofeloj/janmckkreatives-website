@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>Our Website Is Almost Ready.</h1>
+        <h1>Our Website Is <span>Almost</span> Ready.</h1>
         
         <div class="countdown" id="countdown">
             
@@ -38,7 +38,27 @@
         
         </div>
 
+
     </header>
+
+    
+    <!-- <div class="social-links">
+        <a href="#"><ion-icon name="logo-youtube"></ion-icon>facebook</a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="heart"></ion-icon></a>
+    </div> -->
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Janmck Kreatives. All rights reserved.</p>
+    </footer>
+    
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
     <script src="apps/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
