@@ -148,6 +148,20 @@ header {
     overflow: hidden;
 }
 
+nav {
+    background-color: #fd5000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav .logo {
+    height: 24px;
+}
+
 h1 {
     font-weight: 600;
     font-size: 60px;
