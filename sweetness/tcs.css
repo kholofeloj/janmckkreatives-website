@@ -1,0 +1,16 @@
+header {
+    height: 40vh;
+}
+
+li {
+    list-style-type: disc;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.TCs-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+    margin: 20px 0;
+}
